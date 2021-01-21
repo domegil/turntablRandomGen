@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+	<title>Turntabl Evening Huddle</title>
+	<!--  libraries -->
+	<script src="js/lib/jquery-v1.8.2.js"></script>
+	<script src="js/lib/underscore-v1.5.2.js"></script>
+	<script src="js/lib/backbone-v0.9.2.js"></script>
+	<script src="js/lib/backbone-localstorage.js"></script>
+
+	<script src="js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<div id="outer-container">
+	<span class="num-entries"></span>
+	<img src="img/turn.png"/>
+	<div id="entry-container">
+		<div class="sub-title">Enter All Names of People in Evening Huddle</div>
+		<input id="name-input" type="text" placeholder="Enter First Name..."/>	
+		<div id="name-list-container">
+			<ul class="name-list left">
+			</ul>
+			<ul class="name-list right">
+			</ul>
+		</div>
+	</div>
+	<div id="winner-container" class="hidden">
+		<div class="sub-title">Randomly selecting a person to host the Huddle</div>
+		<div id="selecting-name"></div>
+	</div>
+	<div id="file-trigger" class="hidden-trigger">UPLOAD FILE</div>
+	<div id="file-area">
+		<input type="file" id="file-input" name="file-input"/>
+		<div id="file-sample"></div>
+		<input type="button" id="file-submit" value="Submit entries"/>
+	</div>
+	<div id="pick-winner" class="hidden-trigger">SHUFFLE</div>
+	<div id="clear-all-safety" class="hidden-trigger">CLEAR</div>
+</div>
+
+<!-- Templates -->
+<script type="text/template" id="name-entry-template">
+    <div class="row">
+	    <div class="icon-font remove"></div>      
+	    <div class="name"><%- name %></div>
+    </div>
+</script>
+
+<script type="text/template" id="name-winner-template">
+    <div class="icon-font remove"></div>      
+    <div class="name"><%- name %></div>
+</script>
+</body>
+</html>
