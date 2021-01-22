@@ -1,5 +1,5 @@
 $(function() {
-	var FADE_DELAY_MS = 300,
+	var FADE_DELAY_MS = 50,
 		EXTRA_DELAY = 0,
 		SHOW_NAME_DELAY = 0,
 		MIN_LIST_LENGTH = 10,
