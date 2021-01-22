@@ -17,16 +17,16 @@ Emmanuel
 Erastus
 Erbynn
 Faustina 
-Francis B.
-Francis C.
-Francis D.
-Frank A.
-Franklin O.
+Francis_Billa
+Francis_Chempa
+Francis_Deh
+Frank_Akumbissah
+Franklin_Oduro
 Hector
 Humaidu
 Innocent
-Isaac A.
-Isaac Y.
+Isaac_Agyen
+Isaac_Yirenkyi
 James
 Jasmine 
 Johnny
@@ -52,9 +52,9 @@ Seth
 Setriakor
 Shadrack 
 Shanoon
-Vincent A.
-Vincent F.
-Vincent T.
+Vincent_Tetteh
+Vincent_Adjetey
+Vincent_Aduuna
 Willington
 Wisdom
 Zeeyyah 

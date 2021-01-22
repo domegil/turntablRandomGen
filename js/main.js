@@ -241,9 +241,9 @@ $(function() {
 						if (names.length === 20) {
 							delay += EXTRA_DELAY; // Increase overall delay slightly
 						}
-						if (names.length < 10) {
-							delay += 50; // Keep adding to delay, to get the 'slow-down' effect
-						}
+						// if (names.length < 10) {
+						// 	delay += 50; // Keep adding to delay, to get the 'slow-down' effect
+						// }
 						names = callback(names);
 						setTimeout(internalCallback, delay);
 					} else {
@@ -276,7 +276,7 @@ $(function() {
 				entry.remove();
 			})
 			$(".name-list").empty();
-			$("#clear-all").remove();
+
 			return false;
 		}
 	});

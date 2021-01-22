@@ -10,12 +10,13 @@ body {
 #outer-container {
 	padding: 20px;
 	margin: 50px auto;
-	width: 630px;
+	width: 620px;
 	background: #fff;
 	border: 1px solid #888;
 	box-shadow: 3px 3px 5px 5px #ccc;
 	border-radius: 5px;
 	height: 545px;
+	margin-left: 240px;
 }
 
 .sub-title {
@@ -32,6 +33,17 @@ body {
 	/* Use opacity: 0 if you want it to be invisible until hover */
 	/*opacity: 0;*/
 	opacity: 0.7;
+	background-color: #4caf50;
+	border: none;
+	color: whitesmoke;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	
+	
 }
 
 .hidden-trigger:hover{
@@ -39,40 +51,39 @@ body {
 }
 
 /* Place the pick winner*/
-#pick-winner {
+ #pick-winner {
 	position: absolute;
-	bottom: 100px;
-	right: 320px;
-	color: #ccc;
-	background-color: rgb(0, 0, 0);
-}
+	bottom: 400px;
+	right: 300px;
+	
+} 
 
-#clear-all-safety {
-	position: absolute;
-	bottom: 30px;
-	right: 10px;
-	color: #ccc;
-	background-color: rgb(0, 0, 0);
-
-}
 
 #clear-all {
 	position: absolute;
-	bottom: 10px;
-	right: 10px;
-	color: #ccc;
-	background-color: #c33;
-	font-weight: bold;
-	padding: 3px;
-}
-/* File area */
-#file-trigger {
-	position: absolute;
-	top: 150px;
+	top: 174px;
 	right: 320px;
-	color: #ccc;
-	background-color: rgb(0, 0, 0);
+	background-color: #4caf50;
+	border: none;
+	color: whitesmoke;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	
+	
 }
+ #file-trigger {
+	position: absolute;
+	top: 85px;
+	right: 280px;
+	color: #ccc;
+	width: fit-content;
+
+	
+} 
 
 #file-area {
 	position: absolute;
@@ -81,13 +92,12 @@ body {
 	display: none;
 }
 
-#file-submit {
+ #file-submit {
 	font-size: 14px;
 	padding: 4px;
-	border: 1px solid #333;
 	margin-top: 10px;
 	border-radius: 3px;
-}
+} 
 
 #file-submit:hover {
 	cursor: pointer;
@@ -101,22 +111,11 @@ body {
 }
 
 /* Input area */
-#name-input {
-	font-size: 30px;
-	font-family: helvetica;
-	width: 620px;
-	padding: 5px;
-	border-radius: 3px;
-	border: 2px solid #ccc;
-}
 
-#name-input::-webkit-input-placeholder {
-	color: #ddd;
-}
 
 .num-entries {
 	float: right;
-	color: #ccc;
+	color: rgb(15, 2, 2);
 }
 
 /* List of names */
@@ -182,6 +181,7 @@ ul {
 
 .winner .name {
 	padding: 0;
+
 }
 
 #selecting-name {
@@ -189,12 +189,14 @@ ul {
 	-webkit-transition: all 1s ease-out;
 	z-index: 5000;
 	position: relative;
+	font-size: 50pt;
 }
 
 #selecting-name.final-winner {
 	color: rgb(51, 51, 51);
 	-moz-transform: scale(2);
 	-webkit-transform: scale(2);
+	font-size: 55pt;
 }
 
 .winner .icon-font.remove {
