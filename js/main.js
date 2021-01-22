@@ -255,7 +255,7 @@ $(function() {
 						setTimeout(function(){
 							$("#selecting-name").addClass("final-winner");
 							$("body").append("<div id='blanket'></div>");
-						}, 30);
+						}, 10);
 					}
 				}
 			}(names, delay);
