@@ -1,6 +1,6 @@
 $(function() {
-	var FADE_DELAY_MS = 800,
-		EXTRA_DELAY = 500,
+	var FADE_DELAY_MS = 500,
+		EXTRA_DELAY = 50,
 		SHOW_NAME_DELAY = 100,
 		MIN_LIST_LENGTH = 10,
 		MAX_LIST_LENGTH = 300;
@@ -255,7 +255,7 @@ $(function() {
 						setTimeout(function(){
 							$("#selecting-name").addClass("final-winner");
 							$("body").append("<div id='blanket'></div>");
-						}, 100);
+						}, 50);
 					}
 				}
 			}(names, delay);
