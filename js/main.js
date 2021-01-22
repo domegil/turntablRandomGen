@@ -1,7 +1,7 @@
 $(function() {
 	var FADE_DELAY_MS = 300,
 		EXTRA_DELAY = 0,
-		SHOW_NAME_DELAY = 50,
+		SHOW_NAME_DELAY = 0,
 		MIN_LIST_LENGTH = 10,
 		MAX_LIST_LENGTH = 300;
 
